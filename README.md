@@ -54,12 +54,12 @@ spring.h2.console.enabled=true
 ### 1. Clone the Repository
 --------
 ```bash
-     git clone https://github.com/your-username/quiz-api.git cd quiz-api
+     git clone https://github.com/Ratnanjaneyulu1122/QuizAppApi.git
 ```
 --------------------------------
 ### 2. Configure the Database
 - Open the `application.properties` file located in `src/main/resources/`.
-- Update the following properties with your database details:
+- Update the following properties with your database details ex mysql daatbase details provided below , if you are using any other database like mysql,oracle,db2,etc based on the database database url change so if any one want to change so database url need to change:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/quizdb
 spring.datasource.username=your-db-username
